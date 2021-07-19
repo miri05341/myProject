@@ -1,0 +1,17 @@
+C:\Users\משתמש\Desktop\מירי\project\Logic\bin\Debug\net5.0\Logic.deps.json
+C:\Users\משתמש\Desktop\מירי\project\Logic\bin\Debug\net5.0\Logic.dll
+C:\Users\משתמש\Desktop\מירי\project\Logic\bin\Debug\net5.0\ref\Logic.dll
+C:\Users\משתמש\Desktop\מירי\project\Logic\bin\Debug\net5.0\Logic.pdb
+C:\Users\משתמש\Desktop\מירי\project\Logic\bin\Debug\net5.0\DAL.dll
+C:\Users\משתמש\Desktop\מירי\project\Logic\bin\Debug\net5.0\IRepositories.dll
+C:\Users\משתמש\Desktop\מירי\project\Logic\bin\Debug\net5.0\DAL.pdb
+C:\Users\משתמש\Desktop\מירי\project\Logic\bin\Debug\net5.0\IRepositories.pdb
+C:\Users\משתמש\Desktop\מירי\project\Logic\obj\Debug\net5.0\Logic.csproj.AssemblyReference.cache
+C:\Users\משתמש\Desktop\מירי\project\Logic\obj\Debug\net5.0\Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\משתמש\Desktop\מירי\project\Logic\obj\Debug\net5.0\Logic.AssemblyInfoInputs.cache
+C:\Users\משתמש\Desktop\מירי\project\Logic\obj\Debug\net5.0\Logic.AssemblyInfo.cs
+C:\Users\משתמש\Desktop\מירי\project\Logic\obj\Debug\net5.0\Logic.csproj.CoreCompileInputs.cache
+C:\Users\משתמש\Desktop\מירי\project\Logic\obj\Debug\net5.0\Logic.csproj.CopyComplete
+C:\Users\משתמש\Desktop\מירי\project\Logic\obj\Debug\net5.0\Logic.dll
+C:\Users\משתמש\Desktop\מירי\project\Logic\obj\Debug\net5.0\ref\Logic.dll
+C:\Users\משתמש\Desktop\מירי\project\Logic\obj\Debug\net5.0\Logic.pdb

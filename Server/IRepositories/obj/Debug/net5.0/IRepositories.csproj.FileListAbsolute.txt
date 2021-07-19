@@ -1,0 +1,15 @@
+C:\Users\משתמש\Desktop\מירי\project\IRepositories\bin\Debug\net5.0\IRepositories.deps.json
+C:\Users\משתמש\Desktop\מירי\project\IRepositories\bin\Debug\net5.0\IRepositories.dll
+C:\Users\משתמש\Desktop\מירי\project\IRepositories\bin\Debug\net5.0\ref\IRepositories.dll
+C:\Users\משתמש\Desktop\מירי\project\IRepositories\bin\Debug\net5.0\IRepositories.pdb
+C:\Users\משתמש\Desktop\מירי\project\IRepositories\bin\Debug\net5.0\DAL.dll
+C:\Users\משתמש\Desktop\מירי\project\IRepositories\bin\Debug\net5.0\DAL.pdb
+C:\Users\משתמש\Desktop\מירי\project\IRepositories\obj\Debug\net5.0\IRepositories.csproj.AssemblyReference.cache
+C:\Users\משתמש\Desktop\מירי\project\IRepositories\obj\Debug\net5.0\IRepositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\משתמש\Desktop\מירי\project\IRepositories\obj\Debug\net5.0\IRepositories.AssemblyInfoInputs.cache
+C:\Users\משתמש\Desktop\מירי\project\IRepositories\obj\Debug\net5.0\IRepositories.AssemblyInfo.cs
+C:\Users\משתמש\Desktop\מירי\project\IRepositories\obj\Debug\net5.0\IRepositories.csproj.CoreCompileInputs.cache
+C:\Users\משתמש\Desktop\מירי\project\IRepositories\obj\Debug\net5.0\IRepositories.csproj.CopyComplete
+C:\Users\משתמש\Desktop\מירי\project\IRepositories\obj\Debug\net5.0\IRepositories.dll
+C:\Users\משתמש\Desktop\מירי\project\IRepositories\obj\Debug\net5.0\ref\IRepositories.dll
+C:\Users\משתמש\Desktop\מירי\project\IRepositories\obj\Debug\net5.0\IRepositories.pdb

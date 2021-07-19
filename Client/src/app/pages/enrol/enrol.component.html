@@ -1,0 +1,76 @@
+<div class="main">
+    <form [formGroup]="formGroup" (ngSubmit)="enrol()">
+
+        <header>
+            <h3 [innerText]="'הזן פרטים'"></h3>
+        </header>
+
+        <section class="main-section">
+            <div>
+                <mat-form-field>
+                    <input matInput placeholder="שם פרטי" formControlName="firstName" required #fn>
+                    <span *ngIf="formGroup.get('firstName')?.invalid && mouseoverLogin "
+                        [innerText]="'שדה חובה ללא ספרות'"></span>
+                </mat-form-field>
+
+                <mat-form-field>
+                    <input matInput placeholder="שם משפחה" formControlName="lastName" required #ln>
+                    <span *ngIf="formGroup.get('lastName')?.invalid && mouseoverLogin"
+                        [innerText]="'שדה חובה ללא ספרות'"></span>
+                </mat-form-field>
+            </div>
+
+            <div>
+                <mat-form-field>
+                    <input matInput placeholder="מספר זהות" formControlName="ID" required #fn>
+                    <span *ngIf="formGroup.get('ID')?.invalid && mouseoverLogin"
+                        [innerText]="'שדה חובה בעל 9 ספרות'"></span>
+                </mat-form-field>
+
+
+                <mat-form-field>
+                    <input matInput [matDatepicker]="picker" placeholder="תאריך לידה" required
+                        formControlName="birthdate" />
+                    <span *ngIf="formGroup.get('birthdate')?.invalid && mouseoverLogin" [innerText]="'שדה חובה'"></span>
+                    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+
+                    <mat-datepicker #picker></mat-datepicker>
+                </mat-form-field> 
+            </div>
+
+             <div>
+                <mat-form-field class="example-user-input">
+                    <mat-select placeholder="זכר/נקבה" formControlName="kind" required>
+                        <mat-option *ngFor="let option of kindOptions" [value]="option">
+                            <span [innerText]="option"></span>
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
+
+        <div>
+                <mat-radio-group aria-labelledby="example-radio-group-label" class="example-radio-group"
+                    formControlName="helth" required>
+                    <mat-radio-button class="example-radio-button" *ngFor="let hmoOption of HMO | enumToValue"
+                        [value]="hmoOption" required>
+                        <span [innerText]="hmoOption"></span>
+                    </mat-radio-button>
+                </mat-radio-group>
+            </div> 
+
+            <div class="example-button">
+                <div mat-stroked-button class="addChild" [innerText]="'הוסף ילד'" (click)="addChild()"></div>
+                <section class="children">
+                    <div *ngFor="let item of childList" required>
+                        <app-child [childInput]="formGroup" [reset]="reset"></app-child>
+                    </div>
+                </section>
+            </div>
+
+            <div class="sub" (mouseenter)="mouseoverLogin=true" (mouseleave)="mouseoverLogin=false">
+                <button mat-raised-button type="submit" [innerText]="'הרשם'" [disabled]="formGroup.invalid"></button>
+            </div>
+        </section>
+
+    </form>
+</div>

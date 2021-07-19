@@ -1,0 +1,90 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 100%;
+
+    .main {
+        display: flex;
+        flex: 1 1 auto;
+        border: solid 3px #ffd740;
+        border-radius: 50px;
+
+        > form {
+            margin: 2rem;
+            display: flex;
+            flex-direction: column;
+            flex: 1 1 auto;
+            align-items: center;
+            justify-self: center;
+            header {
+                h3 {
+                    font-weight: bold;
+                    color: #ffd740;
+                }
+            }
+            .main-section {
+                display: flex;
+                flex-direction: column;
+                width: 60rem;
+                height: 27rem;
+                font-family: Tahoma;
+                background-color: rgba(243, 223, 156, 0.575);
+                align-items: center;
+                justify-self: center;
+                div {
+                    display: flex;
+                    flex-direction: row;
+                    margin-bottom: 0.5rem;
+                    mat-form-field {
+                        margin-left: 3rem;
+                    }
+                }
+                .example-button {
+                    display: flex;
+                    flex-direction: column !important;
+                    .children {
+                        max-height: 10rem;
+                        overflow: hidden;
+                        overflow-y: auto;
+                    }
+                }
+            }
+        }
+    }
+    .example-user-input {
+        margin-right: 8px;
+    }
+}
+
+.example-radio-group {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0;
+}
+
+.example-radio-button {
+    margin: 5px;
+}
+.radio-outer-circle {
+    border-color: #5340ff;
+}
+.radio-inner-circle {
+    border-color: #5340ff;
+}
+.addChild {
+    font-family: tahoma;
+    font-weight: bold;
+    color: #ffd740;
+    position: fixed;
+    display: inline;
+    right: 40rem;
+    top:23rem;
+    cursor: pointer;
+}
+.sub {
+    background-color: #ffd740;
+    display: inline;
+    position: fixed;
+    top: 36rem;
+}
